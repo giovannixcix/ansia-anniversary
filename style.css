@@ -1,0 +1,103 @@
+body{
+    display: flex;
+    font-family: 'Raleway', 'Arial', sans-serif;
+    font-size: 14px;
+}
+header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    background-color: #2B2E4A;
+    
+}
+.top-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    height: 100px;
+    border-bottom: 1px #505369 solid;
+    
+}
+.site-title{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+.nav-list{
+    display: flex;
+    list-style-type: none;
+}
+.nav-item{
+    margin-left: 40px;
+}
+.nav-link{
+    padding: 10px;
+    text-decoration: none;
+    color: #CACBD1;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-top: 250px;
+    z-index: 1;
+}
+.intro-content{
+    text-align: center; 
+    color:#FFFFFF;
+    margin-bottom: 156px;
+}
+.intro-title{
+    display: none;
+}
+.intro-title-like{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 65px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.intro-text{
+    font-size: 22px;
+    margin-bottom: 75px;
+}
+.intro-more-block{
+    width: 200px;
+    height: 46px;
+    background-color: #E84545;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    border-radius: 3px;
+}
+.link-to-more{
+    position: relative;
+    display: block;
+    line-height: 46px;
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.advantages-content{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    padding: 0;
+    width: 100%;
+    height: 690px;
+}
+.adv-container{
+    display: flex;
+}
+.advantage-block{
+    margin: 120px 45px 70px 45px;
+}
